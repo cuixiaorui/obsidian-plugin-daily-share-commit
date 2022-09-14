@@ -1,0 +1,10 @@
+{
+  "id": "obsidian-plugin-daily-share-commit",
+  "name": "Daily Share Commit",
+  "version": "1.0.0",
+  "minAppVersion": "0.12.0",
+  "description": "commit to daily share",
+  "author": "cuixiaorui",
+  "authorUrl": "https://github.com/cuixiaorui",
+  "isDesktopOnly": false
+}

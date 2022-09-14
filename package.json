@@ -1,0 +1,42 @@
+{
+  "name": "obsidian-plugin-daily-share-commit",
+  "version": "1.0.0",
+  "description": "把每日分享的内容一键提交到 cuixiaorui/daily-share repo 当天的 issue 内",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.js --watch",
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.1",
+    "@rollup/plugin-node-resolve": "^13.1.1",
+    "@rollup/plugin-typescript": "^8.3.0",
+    "@types/node": "^16.11.6",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "builtin-modules": "^3.2.0",
+    "obsidian": "^0.12.17",
+    "rollup": "^2.61.1",
+    "ts-node": "^10.9.1",
+    "tslib": "2.3.1",
+    "typescript": "4.4.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere.git"
+  },
+  "keywords": [],
+  "author": "cuixiaorui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere/issues"
+  },
+  "homepage": "https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere#readme",
+  "dependencies": {
+    "@octokit/core": "^3.5.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "dayjs": "^1.10.7",
+    "octokit": "^2.0.7",
+    "tr46": "^3.0.0"
+  }
+}
