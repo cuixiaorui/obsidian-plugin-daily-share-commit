@@ -23,15 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere.git"
+    "url": "git+https://github.com/cuixiaorui/obsidian-plugin-daily-share-commit.git"
   },
   "keywords": [],
   "author": "cuixiaorui",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere/issues"
+    "url": "https://github.com/cuixiaorui/obsidian-plugin-daily-share-commit/issues"
   },
-  "homepage": "https://github.com/cuixiaorui/obsidian-deploy-content-to-anywhere#readme",
+  "homepage": "https://github.com/cuixiaorui/obsidian-plugin-daily-share-commit#readme",
   "dependencies": {
     "@octokit/core": "^3.5.1",
     "@rollup/plugin-json": "^4.1.0",
